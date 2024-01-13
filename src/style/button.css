@@ -1,0 +1,12 @@
+@layer components {
+  .btn {
+    @apply px-3 py-2 rounded-md;
+  }
+
+  .btn-primary {
+    @apply bg-purple-400;
+  }
+  .btn-danger {
+    @apply bg-red-400;
+  }
+}
