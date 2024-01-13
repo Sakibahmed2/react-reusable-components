@@ -1,7 +1,11 @@
-import MainLayout from "./components/layout/MainLayout";
+import Container from "./components/ui/Container";
 
 function App() {
-  return <MainLayout />;
+  return (
+    <Container>
+      <h1>Main content</h1>
+    </Container>
+  );
 }
 
 export default App;
