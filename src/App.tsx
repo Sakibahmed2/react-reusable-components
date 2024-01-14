@@ -7,7 +7,7 @@ function App() {
       <div className="h-screen w-full flex justify-center items-center">
         <button className="btn btn-primary">This is a button</button>
         <button className="btn btn-danger">This is a button</button>
-        <Button className="bg-red-500" />
+        <Button outline={true} />
       </div>
     </Container>
   );
