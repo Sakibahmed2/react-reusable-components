@@ -1,12 +1,20 @@
 @layer components {
-  .btn {
-    @apply px-3 py-2 rounded-md;
+  .btn-solid {
+    @apply px-3 py-2 text-white font-semibold rounded-md;
+    @apply bg-purple-400 hover:bg-purple-500 focus:bg-purple-500;
+    @apply transition-all;
   }
 
-  .btn-primary {
-    @apply bg-purple-400;
+  .btn-outline {
+    @apply px-3 py-2 text-purple-500 font-semibold  rounded-md;
+    @apply bg-purple-400 bg-opacity-10 hover:bg-opacity-20 focus:bg-opacity-20;
+    @apply border-2 border-purple-500;
+    @apply transition-all;
   }
-  .btn-danger {
-    @apply bg-red-400;
+
+  .btn-ghost {
+    @apply px-3 py-2 text-purple-500 font-semibold  rounded-md;
+    @apply bg-purple-400 bg-opacity-10 hover:bg-opacity-20 focus:bg-opacity-20;
+    @apply transition-all;
   }
 }

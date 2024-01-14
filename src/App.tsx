@@ -5,9 +5,7 @@ function App() {
   return (
     <Container>
       <div className="h-screen w-full flex justify-center items-center">
-        <button className="btn btn-primary">This is a button</button>
-        <button className="btn btn-danger">This is a button</button>
-        <Button outline={true} />
+        <Button variant="outline" className="w-[300px]" />
       </div>
     </Container>
   );
