@@ -15,6 +15,11 @@
   [multiple],
   textarea,
   select {
-    @apply w-full border-gray-400 rounded-md focus:border-purple-500 focus:ring-1 focus:ring-purple-500;
+    @apply w-full border-gray-400 rounded-md focus:border-purple-500 focus:ring-1 focus:ring-purple-500 shadow-sm;
+  }
+
+  [type="checkbox"],
+  [type="radio"] {
+    @apply border border-purple-300 rounded-md text-purple-500 checked:bg-purple-500 focus:ring-1 focus:ring-purple-500;
   }
 }
